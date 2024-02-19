@@ -1,0 +1,15 @@
+
+<div class="container mx-auto p-2 rounded-bottom" style="background-color: #EFD28D; color: #060B9F; width: 500px;">
+<h1>Coach Answer</h1>
+  <div class="question">
+    <div class="question-text fw-bold"><%= @question %></div>
+    <div class="question-asker fst-italic">-You</div>
+  </div>
+  <br>
+  <div class="answer">
+    <div class="answer-text fw-bold"><%= @answer %></div>
+    <div class="answer-responder fst-italic">-Your coach</div>
+  </div>
+  <br>
+  <div class="link"><%= link_to "Ask a new question", ask_path %></div>
+</div>
